@@ -1,6 +1,9 @@
 
+import javax.swing.JRadioButton;
+
+
 public interface CalculationManager {
 
-    double calcFahToCels(double fahrenheit);
+    double convertTemps(String input, JRadioButton rdoF, JRadioButton rdoC);
     
 }
